@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+@media screen and (max-width: 560px) {
+    html {
+      font-size: 35%;
+    }
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.item{
+    margin: 2rem;
+    display: grid;
+    place-items: center;
+}
+.center{
+    display: grid;
+    place-items: center;
+}
+
+.heading h1, .date p{
+    font-size: 6rem;
+}
+.time p{
+    font-size: 13rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
